@@ -1,0 +1,49 @@
+.tabel{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.tabel thead tr th{
+    padding: 0 10px;
+    font-size: 0.85rem;
+}
+
+.tabel tbody td{
+    padding: 10px;
+    font-size: 0.85rem;
+}
+
+.tabel td a {
+    display: inline-block;
+    background-color: #ee642ed8;
+    color: #fff;
+    padding: 2px 4px;
+    border-radius: 5px;
+    font-size: 0.75rem;
+    cursor: pointer;
+    transform: scale(0.9);
+    transition: transform 0.3s ease;
+    margin-right: 20px;
+
+}
+
+.tabel td a:hover {
+    transform: scale(1);
+}
+
+.tabel td button {
+    background-color: #f61e16d8;
+    border: none;
+    color: #fff;
+    padding: 2px 6px;
+    border-radius: 5px;
+    font-size: 0.75rem;
+    cursor: pointer;
+    transform: scale(0.9);
+    transition: transform 0.3s ease;
+    margin-right: 5px;
+}
+.tabel td button:hover{
+    transform: scale(1);
+}

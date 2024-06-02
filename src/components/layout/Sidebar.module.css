@@ -1,0 +1,113 @@
+.container{
+    display: flex;
+    padding: 0 10px;
+}
+.navbar{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 32px 0 32px 16px;
+    height: 100vh;
+}
+.navbar div{
+    padding: 8px 16px 8px 10px;
+}
+.userInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.userInfo p {
+    display: flex;
+    align-items: center;
+    font-size: .875rem;
+    font-weight: 500;
+    color: #000;
+}
+.userInfo p svg{
+    margin-left: 5px;
+}
+.userInfo span{
+    color: rgba(0,0,0,.32);
+    font-size: .75rem;
+    font-weight: 400;
+    margin-top: 5px;
+    
+}
+.myAds {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.myAds a {
+    color: rgba(0,0,0,.56);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: .875rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+.myAds a:hover {
+    color: #000;
+}
+.myAds  a.active {
+    color: red;
+}
+
+.logoutBtn{
+    color: rgba(0,0,0,.56);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: fit-content;
+    background-color: transparent;
+    font-size: .875rem;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 8px;
+    padding: 10px;
+    border: none;
+    transition: all 0.3s ease;
+}
+.logoutBtn svg {
+    font-size: .875rem;
+    font-weight: 500;
+    margin-left: 5px;
+}
+.logoutBtn:hover{
+    color: #000;
+}
+.main{
+    flex-grow: 1;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+}
+.info{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: .75rem;
+}
+.info p{
+    margin: 10px 10px;
+    color: rgba(0,0,0,.56);
+    cursor: pointer;
+ }
+ .info p:hover{
+    color: #000;
+ }
+ .socialMedia {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+ }
+ .socialMedia a:hover{
+    color: #000;
+ }
+

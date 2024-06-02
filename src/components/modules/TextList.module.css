@@ -1,0 +1,12 @@
+.input {
+    display: flex;
+    align-items: center;
+}
+.input div input {
+    margin-top: 5px;
+}
+.input button{
+    margin-top: 40px;
+}
+
+

@@ -1,0 +1,109 @@
+.main_section {
+    border-bottom: 1px solid rgba(0,0,0,.12);
+    padding-bottom: 40px;
+}
+.content{
+    padding: 0 32px;
+}
+.title{
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: rgba(0,0,0,.87);
+}
+.auth_contentMsg {
+    margin-bottom: 10px;
+    line-height: 2;
+}
+.auth_contentMsg p {
+    color: rgba(0,0,0,.56);
+    font-size: .875rem;
+    font-weight: 400;
+}
+.text_field{
+    height: 2.6rem;
+    direction: ltr;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.complete {
+    width: 100%;
+    border: 1px solid rgba(0,0,0,.24);
+    border-radius: 4px;
+    padding-left: 57px;
+    padding-right: 16px;
+    height: 100%;
+    line-height: 2.5rem;
+    font-size: 1rem;
+    outline: 0;
+    
+    transition: color .15s ease,border-color .15s ease,box-shadow .15s ease,padding .15s ease;
+}
+.uncomplete {
+    width: 100%;
+    border: 1px solid red;
+    border-radius: 4px;
+    padding-left: 57px;
+    padding-right: 16px;
+    height: 100%;
+    line-height: 2.5rem;
+    font-size: 1rem;
+    outline: 0;
+    
+    transition: color .15s ease,border-color .15s ease,box-shadow .15s ease,padding .15s ease;
+}
+.uncomplete:focus,
+.complete:invalid:focus,
+.complete:focus{
+    border-color: rgba(166,38,38,.56);
+    box-shadow: inset 0 0 0 1px rgba(166,38,38,.56);
+}
+.text_field input:invalid{
+    border-color: red;
+    box-shadow: inset 0 0 0 1px red;
+}
+.text_field input::placeholder{
+    text-align: right;
+}
+.text_field p{
+    position: absolute;
+    margin-left: 5px;
+    font-size: .75rem;
+    background-color: rgba(0,0,0,.04);
+    border-radius: 12px;
+    color: rgba(0,0,0,.87);
+    padding: 2px 12px;
+    transition: transform .15s ease,background-color .15s ease;
+}
+.conditions {
+    font-size: 14px;
+    margin-top: 16px;
+    color: rgba(0,0,0,.56);
+}
+.conditions span {
+    color: #a62626;
+}
+.submitBtn {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 30px;
+}
+.submitBtn button {
+    height: 2.5rem;
+    display: inline-flex;
+    align-items: center;
+    border: none;
+    background-color: #a62626;
+    color: #fff;
+    padding: 5px 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: color .36s ease,background-color .36s ease,box-shadow .36s ease,border-color .36s ease,transform .36s ease;
+
+}
+.submitBtn button:hover{
+    background-color: #be3737;
+}
